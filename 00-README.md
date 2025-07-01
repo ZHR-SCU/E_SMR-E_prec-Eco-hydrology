@@ -48,8 +48,7 @@
                                  Standardized precipitation (Prec)
                                  Standardized active layer thickness (ALT)
                                  Interaction term of precipitation and ALT
-﻿
-                  These features were preprocessed using z-score normalization, and the response variables were also standardized.
+﻿                  These features were preprocessed using z-score normalization, and the response variables were also standardized.
 ﻿
                   Rather than splitting the data into training and test sets, we trained the models on the full available dataset.
                        
