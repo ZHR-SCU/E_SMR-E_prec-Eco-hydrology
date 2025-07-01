@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  
 % 
-% This section outlines the overall workflow for the MATLAB scripts used in this study.
+% This section outlines the overall workflow for the MATLAB R2022b scripts used in this study.
 % 
 %    Step 1: Identify the site-specific θ_cri (critical soil moisture threshold)
 %         using the procedures provided in "1 - theta_cri_determination.m".
