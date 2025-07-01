@@ -18,7 +18,7 @@
 %        on the start of season (SOS) using the nonlinear mixed-effects model, 
 %                    and quantify their relative contributions.
 %
-%
+%           We uploaded a Demon.mat database to test the usability of the code
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                       All the code was written by Hanrui Zhao. 
