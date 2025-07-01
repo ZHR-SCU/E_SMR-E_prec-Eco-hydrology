@@ -30,23 +30,24 @@
 
 
 
-      ## Python code section
+##################################################################################
+      
+      Python code section
                       
-                      This project demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret the influence of hydrometeorological variables, such as precipitation and active layer thickness (ALT), 
-                                                          on different layers of soil moisture using a Random Forest regression model.
+               This project demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret the influence of hydrometeorological variables, such as precipitation and active layer thickness (ALT), on different layers of soil moisture using a Random Forest regression model.
                         
-                      The python code demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret the influence of hydrometeorological variables, 
-                         such as precipitation and active layer thickness (ALT), on different layers of soil moisture using a Random Forest regression model.
+               The python code demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret the influence of hydrometeorological variables, 
+                 such as precipitation and active layer thickness (ALT), on different layers of soil moisture using a Random Forest regression model.
 
-                      We trained two Random Forest regression models to predict: Shallow soil moisture (SM_bottom) and Root-zone soil moisture (SM_root).
+               We trained two Random Forest regression models to predict: Shallow soil moisture (SM_bottom) and Root-zone soil moisture (SM_root).
 ﻿                      
-                      Each model takes the following predictors: Standardized precipitation (Prec), Standardized active layer thickness (ALT) and Interaction term of precipitation and ALT.
+               Each model takes the following predictors: Standardized precipitation (Prec), Standardized active layer thickness (ALT) and Interaction term of precipitation and ALT.
                                  
-﻿                      These features were preprocessed using z-score normalization, and the response variables were also standardized.
+﻿               These features were preprocessed using z-score normalization, and the response variables were also standardized.
 ﻿
-                      Rather than splitting the data into training and test sets, we trained the models on the full available dataset.
+               Rather than splitting the data into training and test sets, we trained the models on the full available dataset.
                        
-                      This approach was adopted because our objective was not to optimize prediction accuracy, but to perform explanatory modeling, specifically,
-                              to quantify the relative contribution of each predictor to soil moisture variability using SHAP analysis.
+               This approach was adopted because our objective was not to optimize prediction accuracy, but to perform explanatory modeling, specifically,
+                        to quantify the relative contribution of each predictor to soil moisture variability using SHAP analysis.
 ﻿
-                      Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence, which is particularly suitable for limited or observational datasets where test-train splits                                 may reduce the robustness of inference.
+               Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence, which is particularly suitable for limited or observational datasets where test-train splits may reduce the robustness of inference.
