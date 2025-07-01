@@ -38,13 +38,13 @@
                          such as precipitation and active layer thickness (ALT), on different layers of soil moisture using a Random Forest regression model.
 
                       We trained two Random Forest regression models to predict:
-                                    - Shallow soil moisture (SM_bottom)
-                                    - Root-zone soil moisture (SM_root)
+                                 Shallow soil moisture (SM_bottom)
+                                 Root-zone soil moisture (SM_root)
 ﻿                      
                       Each model takes the following predictors:
-                                    - Standardized precipitation (Prec)
-                                    - Standardized active layer thickness (ALT)
-                                    - Interaction term of precipitation and ALT
+                                 Standardized precipitation (Prec)
+                                 Standardized active layer thickness (ALT)
+                                 Interaction term of precipitation and ALT
 ﻿
                       These features were preprocessed using z-score normalization, and the response variables were also standardized.
 ﻿
