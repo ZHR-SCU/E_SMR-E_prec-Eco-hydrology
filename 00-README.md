@@ -28,6 +28,6 @@ Matlab code section
                     For any questions, please contact the author at hanrui_zhao@stu.scu.edu.cn
 ################################################################################## 
 Python code section
-      This project demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret
+                This project demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret
       the influence of hydrometeorological variables, such as precipitation and active layer thickness (ALT), 
-      on different layers of soil moisture using a Random Forest regression model.
+                  on different layers of soil moisture using a Random Forest regression model.
