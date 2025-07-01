@@ -46,12 +46,12 @@
                                     - Standardized active layer thickness (ALT)
                                     - Interaction term of precipitation and ALT
 ﻿
-                       These features were preprocessed using z-score normalization, and the response variables were also standardized.
+                      These features were preprocessed using z-score normalization, and the response variables were also standardized.
 ﻿
-                       Rather than splitting the data into training and test sets, we trained the models on the full available dataset.
+                      Rather than splitting the data into training and test sets, we trained the models on the full available dataset.
                        
-                       This approach was adopted because our objective was not to optimize prediction accuracy, but to perform explanatory modeling, specifically,
-                       to quantify the relative contribution of each predictor to soil moisture variability using SHAP analysis.
+                      This approach was adopted because our objective was not to optimize prediction accuracy, but to perform explanatory modeling, specifically,
+                      to quantify the relative contribution of each predictor to soil moisture variability using SHAP analysis.
 ﻿
-                       Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence,
-                       which is particularly suitable for limited or observational datasets where test-train splits may reduce the robustness of inference.
+                      Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence,
+                      which is particularly suitable for limited or observational datasets where test-train splits may reduce the robustness of inference.
