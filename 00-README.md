@@ -30,7 +30,7 @@
 
 
 
-      Python code section
+      ## Python code section
                       
                       This project demonstrates how to use SHAP (SHapley Additive exPlanations) to interpret the influence of hydrometeorological variables, such as precipitation and active layer thickness (ALT), 
                                                           on different layers of soil moisture using a Random Forest regression model.
@@ -49,4 +49,4 @@
                       This approach was adopted because our objective was not to optimize prediction accuracy, but to perform explanatory modeling, specifically,
                               to quantify the relative contribution of each predictor to soil moisture variability using SHAP analysis.
 ﻿
-                      Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence, which is particularly suitable for limited or observational datasets where test-train splits may reduce the robustness of inference.
+                      Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence, which is particularly suitable for limited or observational datasets where test-train splits                                 may reduce the robustness of inference.
