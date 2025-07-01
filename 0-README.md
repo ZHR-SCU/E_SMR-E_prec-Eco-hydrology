@@ -25,8 +25,7 @@
           
                        We uploaded a Demon.mat database to test the usability of the code
            
-                                   All the code was written by Hanrui Zhao. 
-                    For any questions, please contact the author at hanrui_zhao@stu.scu.edu.cn
+                                  
 
 
 
@@ -50,3 +49,6 @@
                
                Training the model on the full dataset provides a more stable and comprehensive interpretation of variable influence, which is particularly suitable for limited or observational datasets where test-train splits may reduce the robustness of inference.
                
+                                           All the code was written by Hanrui Zhao. 
+                                           
+                        For any questions, please contact the author at hanrui_zhao@stu.scu.edu.cn
