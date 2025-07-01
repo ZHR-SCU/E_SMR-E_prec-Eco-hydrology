@@ -15,7 +15,7 @@ SM = SM;
 validIdx = ~isnan(SM) & ~isnan(EF);  % Detect the index of non-nan data
 SM = SM(validIdx);
 EF = EF(validIdx);
-% 按照 x 的升序对数据排序
+% Sort the data in ascending order of x
 [SM_sorted, sortIdSM] = sort(SM); 
 EF_sorted = EF(sortIdSM); % Reorder         
 
@@ -25,9 +25,9 @@ lb = [a1, b1, c1, d1]; % Lower limit
 ub = [a2, b2, c2, d2]; % Upper limit
 % Fit using lsqcurvefit
 options = optimset('MaxIter', 1000, 'MaxFunEvals', 2000);
-[params_fit, resnorm] = lsqcurvefit(fun, params0, SM_sorted, EF_sorted, lb, ub, options);% 计算拟合曲线
-x_highres = linspace(min(SM_sorted), max(SM_sorted), 1000); % 高分辨率 x
-y_fit_highres = fun(params_fit, x_highres);              % 计算拟合值
+[params_fit, resnorm] = lsqcurvefit(fun, params0, SM_sorted, EF_sorted, lb, ub, options);
+x_highres = linspace(min(SM_sorted), max(SM_sorted), 1000); 
+y_fit_highres = fun(params_fit, x_highres);              
 
 % plot
 figure('OuterPosition',[737,854.6,627.2,276.8]);
