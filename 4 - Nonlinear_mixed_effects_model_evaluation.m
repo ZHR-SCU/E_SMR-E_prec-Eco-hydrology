@@ -52,8 +52,8 @@ E_prec_levels = [-1, 0, 1];
 E_SMR_levels = [-1, 0, 1];
 E_SMR_vals = linspace(min(dataTable_clean.E_SMR), max(dataTable_clean.E_SMR), 50);
 figure;
-colors = lines(length(airT_levels)); % 仅为 airT 分配颜色
-line_styles = {'-', '--', ':'}; % 用不同线型区分 E_prec
+colors = lines(length(airT_levels)); 
+line_styles = {'-', '--', ':'}; 
 legend_entries = {};
 hold on;
 idx = 1;
