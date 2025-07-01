@@ -41,6 +41,7 @@
                                     - Shallow soil moisture (SM_bottom)
                                     - Root-zone soil moisture (SM_root)
 ﻿
+                      
                       Each model takes the following predictors:
                                     - Standardized precipitation (Prec)
                                     - Standardized active layer thickness (ALT)
